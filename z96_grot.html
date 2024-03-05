@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+    div{color:green;font-size: 1cm;}
+
+</style>
+<title> Zadanie 96</title>
+ <script language="JavaScript">
+ function pushbutton() {
+ alert("Czesc !");}
+ </script>
+</head>
+<body>
+    <div>
+        dzis = new Date(); -  konstruktor Date()<br>
+        dzis = dzis.getHour()	- godzina<br>
+        dzis = dzis.getMinutes()	- minuty<br>
+        dzis = dzis.getMonth()	- miesiąc<br>
+        dzis = dzis.getDate()	- pełną date<br>
+        dzis = dzis.getFullYear()	- rok<br>
+    </div>
+<script language="LiveScript">
+ document.write(document.lastModified,"<br>")
+</script>
+<form>
+ <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+<script language="JavaScript">
+ dzis = new Date()
+ document.write('<br>Aktualny czas : ',dzis.getHours(),":",dzis.getMinutes())
+ document.write('<span style="font-size:1cm;"><br>Aktualny czas : <span style="color:red;">',dzis.getMonth()+1,'.<span style="color:green;">',dzis.getDate(),'.<span style="color:blue;">',dzis.getFullYear(),'</span></span></span></span>');
+</script>
+<br>
+
+
+</body>
+</html>
